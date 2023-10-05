@@ -30,15 +30,19 @@ Power governing is a critical component of modern mobile devices, reducing heat 
 
 
 
+## Demo 
+
+<img src="README.assets/2023-MobiCom-GearDVFS-icon.png" alt="img" style="zoom: 33%;" />
+
 ## Publication
 
 **A Workload-Aware DVFS Robust to Concurrent Tasks for Mobile Devices**
 
-Chengdong Lin, Kun Wang, Zhenjiang Li
+Chengdong Lin, Kun Wang, Zhenjiang Li, Yu Pu
 
 ACM MobiCom, 2023
 
-<a href="https://dl.acm.org/doi/abs/10.1145/3570361.3592524">[pdf]</a>  <a href="">[code]</a>  
+<a href="https://dl.acm.org/doi/abs/10.1145/3570361.3592524">[pdf]</a>  <a href="https://github.com/geardvfs/GearDVFS">[code]</a>  
 
 ## Citation
 
