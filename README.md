@@ -40,9 +40,9 @@ Power governing is a critical component of modern mobile devices, reducing heat 
 
 Chengdong Lin, Kun Wang, Zhenjiang Li, Yu Pu
 
-ACM MobiCom, 2023
+**ACM MobiCom, 2023**
 
-<a href="https://dl.acm.org/doi/abs/10.1145/3570361.3592524">[pdf]</a>  <a href="https://github.com/geardvfs/GearDVFS">[code]</a>  
+<a href="https://dl.acm.org/doi/abs/10.1145/3570361.3592524">[pdf]</a>  <a href="https://github.com/geardvfs/GearDVFS">[code]</a>  <a href="">[slides]</a>
 
 ## Citation
 
