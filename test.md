@@ -35,13 +35,9 @@ body {
 </style>
 
 <div>
-
-    `<br><br>``<br>`
-
-    [h1style=&#34;text-align:center;&#34;](h1style=%22text-align:center;%22)`<b>`GearDVFS: A Workload-Aware DVFS Robust to Concurrent
-
-Tasks for Mobile Devices`</b></h1>`
-
+    <br><br><br>
+    <h1 style="text-align:center;"><b>GearDVFS: A Workload-Aware DVFS Robust to Concurrent
+Tasks for Mobile Devices</b></h1>
 </div>
 
 
