@@ -1,140 +1,81 @@
 <style>
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  background-color: #c1bebe;
-}
 
-.markdown-body {
-  border-bottom: 2px solid black;
-  padding-left: 65px !important;
-  padding-right: 65px !important;
-  box-shadow: 5px 2px 2px grey;
-  background: white;
+.markdown-body {    //css总体样式
+  padding: 20px;
+  font-size: 12px;
 }
-
-.markdown-body h1 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  border-bottom: none;
-}
-
 .markdown-body h2 {
-  font-size: 1.75rem;
-  line-height: 2rem;
-  margin-top: 36px;
-  margin-bottom: 16px;
-  border-bottom: 2px solid grey;
+  font-size: 18px;
+  margin: 1em 0 15px;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
 }
-
 .markdown-body h3 {
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  margin-top: 32px;
-  margin-bottom: 16px;
+  font-size: 14px;
+  margin: 22px 0 16px;
 }
-
 .markdown-body h4 {
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  margin-top: 28px;
-  margin-bottom: 16px;
+  font-size: 13px;
+  margin: 20px 0 16px;
 }
-
 .markdown-body h5 {
-  font-size: 1rem;
-  line-height: 1.25rem;
-  margin-top: 24px;
-  margin-bottom: 16px;
+  font-size: 12px;
+  margin: 16px 0 16px;
+  font-weight: 700;
 }
-
-.markdown-body h6 {
-  font-size: 0.85rem;
-  line-height: 1.25rem;
-  margin-top: 20px;
-  margin-bottom: 16px;
-  color: #777;
+.markdown-body p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  margin-top: 0px;
+  margin: 8px 0;
+  margin: 14px 0 14px;
 }
-
-.markdown-body p,
-.markdown-body ul,
-.markdown-body ol {
-  margin-top: 0;
-  margin-bottom: 1rem;
+.markdown-body pre {
+  background-color: #eee;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin: 12px 0 12px;
 }
-
-.markdown-body ul,
-.markdown-body ol {
-  list-style-position: outside;
-  padding-left: 2rem;
-}
-
-.markdown-body a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.markdown-body a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
 .markdown-body blockquote {
-  padding: 0.5rem 1rem;
-  margin: 0.75rem 0 1.5rem;
-  font-size: 1.25rem;
-  border-left: 0.25rem solid #3498db;
-  color: #555;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin: 14px 0 14px;
+  background-color: #eee;
+  padding: 16px 16px;
 }
-
-.markdown-body hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border: 0;
-  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+.markdown-body tr {
+  background-color: #f5f5f5;
 }
-
-.markdown-body pre code {
-  font-size: 0.85rem;
-}
-
 .markdown-body code {
-  color: #d23669;
-  background-color: #fdfdfd;
-  padding: 0 0.25rem;
-  font-size: 0.85rem;
-  border-radius: 3px;
+  background-color: #eee;
 }
-
-.markdown-body img {
-  max-width: 100%;
-  height: auto;
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body li {
+  list-style: unset;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+  margin-top: 0px;
+  margin: 8px 0;
 }
-
+.markdown-body blockquote {
+  border-color: #48b6e2;
+}
 .markdown-body table {
+  display: table;
   width: 100%;
-  margin-bottom: 1rem;
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  max-width: 100%;
+  margin-bottom: 20px;
 }
-
-.markdown-body th,
-.markdown-body td {
-  padding: 0.75rem;
-  text-align: left;
-  vertical-align: top;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+body {
+    background: #fff; /页面背景颜色/
 }
-
-.markdown-body th {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
-  font-weight: bold;
+@media (max-width: 767px) {
+    .markdown-body {
+        padding: 15px;
+    }
 }
 </style>
 
@@ -313,5 +254,3 @@ MNasNet-1.0
     </noscript>
     <!-- End of Statcounter Code -->
 </body>
-
-</html>
