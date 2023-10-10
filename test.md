@@ -1,37 +1,20 @@
 <style>
-
-.markdown-bodyh1 {
-
+.markdown-body h1 {
     border-bottom: none
-
 }
-
-.markdown-bodyh2 {
-
+.markdown-body h2 {
     border-bottom: 2px solid grey;
-
 }
-
 .markdown-body {
-
     border-bottom: 2px solid black;
-
-    padding-left: 65px!important;
-
-    padding-right: 65px!important;
-
-    box-shadow: 5px2px2pxgrey;
-
+    padding-left: 65px !important;
+    padding-right: 65px !important;
+    box-shadow: 5px 2px 2px grey;
     background: white;
-
 }
-
 body {
-
     background: #c1bebe;
-
 }
-
 </style>
 
 <div>
